@@ -1,0 +1,22 @@
+{
+  "name": "truestate-backend",
+  "version": "1.0.0",
+  "description": "Backend for TruEstate assignment",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node --max-old-space-size=4096 src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parser": "^3.2.0",
+    "express": "^4.22.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

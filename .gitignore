@@ -1,0 +1,11 @@
+# Ignore dataset
+backend/src/data/sales.csv
+backend/src/data/*.csv
+
+# Ignore dependencies
+backend/node_modules/
+frontend/node_modules/
+
+# Build Output
+dist/
+.env
