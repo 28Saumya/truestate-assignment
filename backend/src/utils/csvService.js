@@ -6,7 +6,9 @@ const csv = require("csv-parser");
 // ---------- DASHBOARD SUMMARY (SAFE) ----------
 function getDashboardSummary() {
   return new Promise((resolve, reject) => {
-    const filePath = path.join(__dirname, "../data/sales.csv");
+
+const filePath = path.join(__dirname, "../data/sales_sample.csv");
+
 
     let totalTransactions = 0;
     let totalRevenue = 0;

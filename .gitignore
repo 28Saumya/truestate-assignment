@@ -1,6 +1,5 @@
-# Ignore dataset
+# Ignore only big CSV
 backend/src/data/sales.csv
-backend/src/data/*.csv
 
 # Ignore dependencies
 backend/node_modules/
