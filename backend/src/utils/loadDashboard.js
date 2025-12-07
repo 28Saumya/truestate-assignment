@@ -6,9 +6,10 @@ let summaryCache = null;
 
 function loadDashboardSummary() {
   if (summaryCache) return Promise.resolve(summaryCache);
+const filePath = path.join(__dirname, "../data/sales_sample.csv");
 
   return new Promise((resolve, reject) => {
-    const filePath = path.join(__dirname, "../data/sales.csv");
+   
 
     let totalTransactions = 0;
     let totalRevenue = 0;
